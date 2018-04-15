@@ -15,7 +15,7 @@ multiply(2);
 // Third task
 
 const average = (...numbers) => {
-    var sum = numbers.reduce((prev, cur) => prev + cur);
+    var sum = numbers.reduce((prev, cur) => prev + cur, 0);
     console.log((sum / numbers.length).toFixed(2));
 }
 
